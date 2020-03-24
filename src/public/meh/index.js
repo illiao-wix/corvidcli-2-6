@@ -1,5 +1,5 @@
 import wixLocation from 'wix-location';
 
-const addParam = (param) => {
+export const addParam = (param) => {
     wixLocation.queryParams.add(param);
 }

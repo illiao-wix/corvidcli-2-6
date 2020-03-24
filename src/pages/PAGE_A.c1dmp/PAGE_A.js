@@ -1,3 +1,4 @@
+
 import { addParam } from 'public/meh';
 
 $w.onReady(() => {
@@ -5,3 +6,8 @@ $w.onReady(() => {
     console.log(meh);
     addParam({ meh });
 })
+
+function foo () {
+    console.log('Foo logger');
+}
+
