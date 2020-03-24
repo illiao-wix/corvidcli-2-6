@@ -1,7 +1,7 @@
 import { addParam } from 'public/meh';
 
 $w.onReady(() => {
-    const meh = 'bla';
+    const meh = 'blaster bombaster';
     console.log(meh);
     addParam({ meh });
 })
