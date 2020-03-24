@@ -1,4 +1,3 @@
-
 import { addParam } from 'public/meh';
 
 $w.onReady(() => {
